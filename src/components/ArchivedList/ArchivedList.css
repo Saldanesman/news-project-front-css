@@ -1,0 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/potential');
+
+.container-archived-news {
+  background-color: black;
+}
+
+.title-archived-news_news, .title-archived-news_archived {
+	position: fixed;
+	color: #cecaff;
+	font-size: 6.5em;
+  	font-weight: bold;
+	font-family: 'Potential', sans-serif;                     
+}
+
+.title-archived-news_news {
+	margin-top: 5%;
+	margin-left: 1%;
+}
+
+.title-archived-news_archived {
+	margin-top: 17.5%;
+	margin-left: 1%;
+}

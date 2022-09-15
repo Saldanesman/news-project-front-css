@@ -1,0 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/potential');
+
+.container-news-list {
+  background-color: black;
+}
+
+.title-news-list_news, .title-news-list_list {
+	position: fixed;
+	color: #cecaff;
+	font-size: 12em;
+  	font-weight: bold;
+	font-family: 'Potential', sans-serif;                     
+}
+
+.title-news-list_news {
+	margin-top: 5%;
+	margin-left: 1%;
+}
+
+.title-news-list_list {
+	margin-top: 25%;
+	margin-left: 1%;
+}

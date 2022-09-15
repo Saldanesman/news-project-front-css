@@ -1,0 +1,113 @@
+@import url('http://fonts.cdnfonts.com/css/satoshi');
+
+.container {
+  font-family: 'Satoshi', sans-serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: black;
+  width: 40vw;
+  margin-bottom: 5%;
+  border-style: dashed;
+  border-color: #ffffff;
+  margin-left: 50%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.container:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.info-buttons {
+  margin: 1%;
+}
+
+.date, .author {
+  text-align: center;
+  display: inline-block;
+  background-color: #707070;
+  color: black;
+  width: 10vw;
+  border-radius: 5%;
+  font-size: 100%;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.date {
+  float: left;
+}
+
+.title {
+  margin-top: 2.5%;
+  color: #ffffff;
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.description {
+  color: #757575;
+  margin-top: 2.5%;
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.content {
+  color: #d3d3d3;
+  margin-top: 4%;
+  font-size: 100%;
+}
+
+.archive-button, .delete-button {
+  margin: 2.5%;
+  background-color: #7066e0;
+  border-radius: 5%;
+  color: black;
+  font-size: 135%;
+  font-weight: bold;
+  border: 0px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.archive-button:hover, .delete-button:hover {
+  background-color: #49419c;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.archived-date {
+  margin-top: 2.5%;
+  font-weight: bold;
+  font-size: 125%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Hover cards */
+
+.container:hover {
+  background-color: #ffffff;
+}
+
+.container:hover > .title {
+  color: black;
+}
+
+.container:hover > .description {
+  color: #1b1b1b;
+}
+
+.container:hover > .content {
+  color: #070707;
+}
